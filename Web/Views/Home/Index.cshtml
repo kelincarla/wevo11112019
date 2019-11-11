@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Página principal";
+}
+
+    <div class="jumbotron">
+
+        <p class="lead">Clique em um dos botões abaixo para realizar o cadastro.</p>
+        <p>
+            @Html.ActionLink("Cadastrar usuário BD", "Index", "Usuario", new { area = "" }, new { @class = "btn btn-primary btn-lg" })
+                @Html.ActionLink("Cadastrar usuário Memória", "Index", "UsuarioMemoria", new { area = "" }, new { @class = "btn btn-primary btn-lg" })
+            </p>
+        
+
+
+    </div>
